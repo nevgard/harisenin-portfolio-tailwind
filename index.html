@@ -11,11 +11,11 @@
     <script src="tailwind.config.js"></script>
   </head>
   <body>
-    <div class="overflow-hidden">
+    <div class="overflow-hidden md:px-16">
       <section id="header" class="">
         <div class="container">
           <div
-            class="flex mx-[100px] py-11 place-items-center justify-center md:justify-start"
+            class="flex py-11 place-items-center justify-center md:justify-start"
           >
             <h1 class="header text-red font-normal text-2xl">My</h1>
             <h1 class="header text-orange font-normal text-2xl">Portfolio</h1>
@@ -26,11 +26,11 @@
         <div class="flex flex-col justify-center md:flex-row">
           <!-- aside  -->
           <div
-            class="flex flex-col flex-wrap justify-center items-center bg-white rounded-2xl md:mb-12 md:w-1/3 md:ml-[100px] gap-y-6 py-12 md:px-6"
+            class="flex flex-col flex-wrap justify-center items-center bg-white rounded-2xl md:mb-12 md:w-1/3 gap-y-6 py-12 md:px-6"
           >
             <img
-              src="assets/img/profile_fahmi.jpg"
-              class="w-[200px] h-[200px] rounded-md object-cover"
+              src="assets/img/potrait.jpg"
+              class="w-[200px] h-[200px] rounded-md object-cover object-top"
               alt=""
             />
             <!-- name profile -->
@@ -51,32 +51,33 @@
               <!-- facebook -->
               <a
                 href="#"
-                class="w-14 h-14 bg-primary rounded-md flex justify-center items-center hover:border-primary hover:bg-primary hover:text-white"
+                class="w-14 h-14 bg-primary rounded-md flex justify-center items-center transition ease-in-out hover:duration-300 hover:scale-105 hover:shadow-md"
               >
                 <svg
-                  width="12"
-                  height="21"
-                  viewBox="0 0 12 21"
-                  fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 32 32"
+                  class="fill-blue-500"
                 >
                   <path
-                    d="M7.75027 12.0825H10.2308L11.2231 8.11357H7.75027V6.12912C7.75027 5.10712 7.75027 4.14467 9.73472 4.14467H11.2231V0.810787C10.8996 0.768121 9.67816 0.671875 8.38827 0.671875C5.69438 0.671875 3.78137 2.31599 3.78137 5.33534V8.11357H0.804688V12.0825H3.78137V20.5164H7.75027V12.0825Z"
-                    fill="#1877F2"
-                  />
+                    d="M 19.253906 2 C 15.311906 2 13 4.0821719 13 8.8261719 L 13 13 L 8 13 L 8 18 L 13 18 L 13 30 L 18 30 L 18 18 L 22 18 L 23 13 L 18 13 L 18 9.671875 C 18 7.884875 18.582766 7 20.259766 7 L 23 7 L 23 2.2050781 C 22.526 2.1410781 21.144906 2 19.253906 2 z"
+                  ></path>
                 </svg>
               </a>
               <!-- linkedlin -->
               <a
                 href="https://www.linkedin.com/in/ahmad-fahmi-faza-1177a6269/"
-                class="w-14 h-14 bg-primary rounded-md flex justify-center items-center hover:border-primary hover:bg-primary hover:text-white"
+                class="w-14 h-14 bg-primary rounded-md flex justify-center items-center hover:border-primary hover:bg-primary hover:text-white transition ease-in-out hover:duration-300 hover:scale-105 hover:shadow-md"
               >
                 <svg
                   width="70"
                   height="62"
                   viewBox="0 0 70 62"
-                  fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                  class="fill-blue-500"
                 >
                   <rect
                     x="0.125"
@@ -95,14 +96,13 @@
                   />
                   <path
                     d="M29.8895 24.8069C29.8892 25.2455 29.7148 25.666 29.4045 25.976C29.0942 26.286 28.6735 26.46 28.2349 26.4598C27.7963 26.4595 27.3758 26.2851 27.0658 25.9748C26.7558 25.6645 26.5818 25.2438 26.582 24.8052C26.5823 24.3666 26.7567 23.9461 27.067 23.6361C27.3773 23.3261 27.798 23.1521 28.2366 23.1523C28.6752 23.1526 29.0957 23.327 29.4057 23.6373C29.7157 23.9476 29.8897 24.3683 29.8895 24.8069ZM29.9391 27.6843H26.6316V38.0366H29.9391V27.6843ZM35.1648 27.6843H31.8739V38.0366H35.1317V32.6041C35.1317 29.5778 39.0758 29.2967 39.0758 32.6041V38.0366H42.3419V31.4796C42.3419 26.3779 36.5043 26.5681 35.1317 29.0735L35.1648 27.6843Z"
-                    fill="#0077B5"
                   />
                 </svg>
               </a>
               <!-- twitter -->
               <a
                 href="#"
-                class="w-14 h-14 bg-primary rounded-md flex justify-center items-center hover:border-primary hover:bg-primary hover:text-white"
+                class="w-14 h-14 bg-primary rounded-md flex justify-center items-center transition ease-in-out hover:duration-300 hover:scale-105 hover:shadow-md"
               >
                 <svg
                   width="21"
@@ -120,7 +120,7 @@
               <!-- github -->
               <a
                 href="https://github.com/nevgard"
-                class="w-14 h-14 bg-primary rounded-md flex justify-center items-center hover:border-primary hover:bg-primary hover:text-white"
+                class="w-14 h-14 bg-primary rounded-md flex justify-center items-center transition ease-in-out hover:duration-300 hover:scale-105 hover:shadow-md"
               >
                 <svg
                   width="70"
@@ -329,7 +329,7 @@
             </div>
             <!-- end of nav -->
             <div
-              class="flex flex-col mt-4 px-12 py-6 w-full bg-white rounded-2xl md:mb-12 md:ms-4 md:me-[100px]"
+              class="flex flex-col mt-4 px-12 py-6 w-full bg-white rounded-2xl md:mb-12 md:ms-4"
             >
               <section>
                 <div class="flex flex-row items-center mb-6">
@@ -354,7 +354,7 @@
                 <div class="flex flex-wrap gap-y-6 gap-x-6">
                   <!-- web development -->
                   <div
-                    class="card bg-[#FFEBD1] px-6 pt-2 pb-2 flex flex-wrap items-center w-80 rounded-3xl"
+                    class="card bg-[#FFEBD1] px-6 pt-2 pb-2 flex flex-wrap items-center w-80 rounded-3xl transition ease-in-out hover:duration-300 hover:scale-105 hover:shadow-md"
                   >
                     <svg
                       width="20"
@@ -381,7 +381,7 @@
 
                   <!-- app development -->
                   <div
-                    class="card bg-[#F2F7FC] px-6 py-3 flex flex-wrap items-center w-80 rounded-3xl"
+                    class="card bg-[#F2F7FC] px-6 py-3 flex flex-wrap items-center w-80 rounded-3xl transition ease-in-out hover:duration-300 hover:scale-105 hover:shadow-md"
                   >
                     <svg
                       width="20"
@@ -410,7 +410,7 @@
 
                   <!-- ui/ux design -->
                   <div
-                    class="card bg-[#F2F7FC] px-6 py-3 flex flex-wrap items-center w-80 rounded-3xl"
+                    class="card bg-[#F2F7FC] px-6 py-3 flex flex-wrap items-center w-80 rounded-3xl transition ease-in-out hover:duration-300 hover:scale-105 hover:shadow-md"
                   >
                     <svg
                       width="20"
@@ -444,7 +444,7 @@
                   </div>
                   <!-- mentorship -->
                   <div
-                    class="card bg-[#FFEBD1] px-6 py-3 flex flex-wrap items-center w-80 rounded-3xl"
+                    class="card bg-[#FFEBD1] px-6 py-3 flex flex-wrap items-center w-80 rounded-3xl transition ease-in-out hover:duration-300 hover:scale-105 hover:shadow-md"
                   >
                     <svg
                       width="30"
@@ -473,5 +473,6 @@
         </div>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
